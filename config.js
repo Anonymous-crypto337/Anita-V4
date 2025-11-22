@@ -16,7 +16,7 @@ global.channeljid = process.env.CHANNEL_JID || "120363315231436175@newsletter";
 // Auto-Features
 global.autoTyping = toBool(process.env.AUTO_TYPING);
 global.autoRecord = toBool(process.env.AUTO_RECORD);
-global.autoViewStatus = toBool(process.env.AUTO_VIEW_STATUS);
+global.autoViewStatus = toBool(process.env.AUTO_VIEW_STATUS);"true"
 global.AUTO_STATUS_REACT = toBool(process.env.AUTO_STATUS_REACT);
 global.autoLikeEmoji = process.env.AUTO_LIKE_EMOJI || "💚";
 global.LEVELUP = toBool(process.env.LEVELUP);
